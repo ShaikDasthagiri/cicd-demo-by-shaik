@@ -1,8 +1,5 @@
-# CI/CD Demo by Shaik
 
-This project is a sample setup to demonstrate the complete DevOps lifecycle using GitHub and CI/CD practices.
-
-## 📁 Project Structure
+ 📁 Project Structure
 shaik_Projects/ ├── src/ ├── .gitignore ├── pom.xml (if using Maven) └── README.md
 
 
@@ -29,4 +26,12 @@ mvn clean package
 
 # Run the generated .jar file
 java -jar target/your-project-name.jar
+
+🔗 GitHub Repository
+GitHub - cicd-demo-by-shaik
+
+📧 Contact
+Shaik Dasthagiri
+📩 shaikts786@gmail.com
+🌐 GitHub: @ShaikDasthagiri
 
