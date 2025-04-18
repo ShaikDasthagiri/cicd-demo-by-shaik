@@ -14,6 +14,13 @@ public class JavaCloudrunAppApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Hello, Shaik ! You're going to be a DevOps engineer soon!";
+        return "<html>" +
+               "<body style='background-color: lightblue; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;'>" +
+               "<div style='text-align: center;'>" +
+               "<h1>Hello, Shaik!</h1>" +
+               "<p>You're going to be a DevOps engineer soon!</p>" +
+               "</div>" +
+               "</body>" +
+               "</html>";
     }
 }
